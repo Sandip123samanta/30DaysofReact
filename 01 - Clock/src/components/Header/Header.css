@@ -1,0 +1,19 @@
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw;
+}
+
+.Logo{
+    font-size: 2vw;
+    color: #fff;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15%;
+}
