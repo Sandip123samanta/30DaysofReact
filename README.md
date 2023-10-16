@@ -12,7 +12,7 @@ Repo containing all the projects made in 30 Days while completing the <b>30 Days
 
 | Day |                                                Name                                                 |
 | --- | :-------------------------------------------------------------------------------------------------: |
-| 1   |                   [Clock](https://30daysofjs.netlify.app/01%20-%20drum%20kit/)                   |
+| 1   |                   [Clock]()                   |
 
     
  </td><td>
