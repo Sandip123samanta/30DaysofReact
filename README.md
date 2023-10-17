@@ -13,6 +13,7 @@ Repo containing all the projects made in 30 Days while completing the <b>30 Days
 | Day |                                                Name                                                 |
 | --- | :-------------------------------------------------------------------------------------------------: |
 | 1   |                   [Clock]()                   |
+| 2   |                   [Currency Converter]()      |
 
     
  </td><td>
