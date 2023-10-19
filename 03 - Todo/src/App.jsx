@@ -36,8 +36,12 @@ function App() {
 
   return (
     <TodoProvider value={{todos,addTodo,updateTodo,deleteTodo,toggleComplete}}>
-      <div className="bg-[#172842] min-h-screen py-8">
-                <div className="w-full max-w-2xl mx-auto shadow-md rounded-lg px-4 py-3 text-white">
+      <div className="bg-[#172842] min-h-screen flex flex-col items-center overflow-x-hidden justify-between">
+
+      <div className="Header bg-slate-950 w-screen h-20 flex justify-center items-center">
+        <p className='text-slate-50 text-3xl'>Todo List</p>
+      </div>
+                <div className="w-full max-w-2xl mt-5 mb-5 shadow-md rounded-lg px-4 py-3 text-white">
                     <h1 className="text-2xl font-bold text-center mb-8 mt-2">Manage Your Todos</h1>
                     <div className="mb-4">
                         <TodoForm /> 
@@ -50,7 +54,11 @@ function App() {
                        ))}
                     </div>
                 </div>
-        </div>
+                <div className='footer w-screen h-20 bg-slate-950 flex items-center justify-center flex-col'>
+      <p className='text-slate-50'> Code with ❤️ by <a href='https://github.com/Sandip123samanta' className='text-blue-500 font-medium'>Sandip Samanta</a></p>
+        <p><a href='https://github.com/Sandip123samanta/30DaysofReact' className='text-blue-500 font-medium'>#30DaysofReact</a></p>
+      </div>
+      </div>
     </TodoProvider>
   )
 }
